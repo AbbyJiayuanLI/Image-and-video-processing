@@ -20,5 +20,10 @@ This is the collection of my notes on the course Image and Video Processing from
     * in amplitude
     * in space
 * RGB
+* Neighborhood
+    * 4-neighbor
+        * -------
+
+    * 8-neighbor
 
 
