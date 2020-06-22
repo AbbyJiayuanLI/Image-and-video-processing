@@ -2,7 +2,7 @@
 This is the collection of my notes on the course Image and Video Processing from Coursera.
 
 ## Content
-* [Useful Link](##useful-links)
+* [Useful Links](##useful-links)
 * [1. Introduction](##1-introduction)
 
 
