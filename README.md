@@ -22,8 +22,15 @@ This is the collection of my notes on the course Image and Video Processing from
 * RGB
 * Neighborhood
     * 4-neighbor
-        * -------
-
+    __________
+    |_|_|*|_|_|
+    |_|*|o|*|_|
+    |_|_|*|_|_|
+    |_|_|_|_|_|
     * 8-neighbor
-
+    __________
+    |_|*|*|*|_|
+    |_|*|o|*|_|
+    |_|*|*|*|_|
+    |_|_|_|_|_|
 
