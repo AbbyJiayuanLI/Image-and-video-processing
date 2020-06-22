@@ -16,6 +16,7 @@ This is the collection of my notes on the course Image and Video Processing from
     * 图片1
 * Mach Band Effect:
     * not constant perceived intensity, dependent on the contrast of two pics
+    * 图片2
 * Discretization
     * in amplitude
     * in space
