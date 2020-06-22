@@ -2,7 +2,7 @@
 This is the collection of my notes on the course Image and Video Processing from Coursera.
 
 
-## Introduction
+## 1. Introduction
 * Weber's Law:
   * more sensitive to the change of intensity in dark than bright environment.
   * 图片1
