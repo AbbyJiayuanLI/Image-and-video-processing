@@ -22,7 +22,8 @@ This is the collection of my notes on the course Image and Video Processing from
 * RGB
 * Neighborhood
     * 4-neighbor
-    ```__________
+    ```
+       __ __ __ __
        |_|_|*|_|_|
        |_|*|o|*|_|
        |_|_|*|_|_|
@@ -30,7 +31,7 @@ This is the collection of my notes on the course Image and Video Processing from
     ```   
     * 8-neighbor
     ```
-       __________
+       __ __ __ __
        |_|*|*|*|_|
        |_|*|o|*|_|
        |_|*|*|*|_|
