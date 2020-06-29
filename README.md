@@ -38,3 +38,8 @@ This is the collection of my notes on the course Image and Video Processing from
        |_|*|*|*|_|
        |_|_|_|_|_|
    ```
+   
+## 2. Image and Video Compressing
+* Motivation:
+   * why to do: Large information even for 1000x1000 pic
+   * why can do: coding redundancy, spatial redundancy, irrelavant information
