@@ -57,6 +57,8 @@ This is the collection of my notes on the course Image and Video Processing from
    * Forward Transform:
    * Quantizer:
    * Symbol Encoder: Huffman Coding (variant length coding)
+      * re-ordering
+      * add last two (distinguish)
    * Symboel Decoder:
    * Inverse Transform:
    
