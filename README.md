@@ -43,3 +43,14 @@ This is the collection of my notes on the course Image and Video Processing from
 * Motivation:
    * why to do: Large information even for 1000x1000 pic
    * why can do: coding redundancy, spatial redundancy, irrelavant information
+* Image:
+   * Encoder: 
+      * mapper
+      * quantizer (error)
+      * symbol coder
+   * Decoder:
+      * symbol decoder
+      * inverse mapper
+
+
+
