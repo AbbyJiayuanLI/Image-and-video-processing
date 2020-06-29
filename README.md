@@ -53,5 +53,11 @@ This is the collection of my notes on the course Image and Video Processing from
       * inverse mapper
 * JPEG:
    * Structure: pic1
-   * Sub-image is often 8x8
+   * Sub-image: often 8x8
+   * Forward Transform:
+   * Quantizer:
+   * Symbol Encoder: Huffman Coding (variant length coding)
+   * Symboel Decoder:
+   * Inverse Transform:
+   
 
