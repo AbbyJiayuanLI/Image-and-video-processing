@@ -52,5 +52,6 @@ This is the collection of my notes on the course Image and Video Processing from
       * symbol decoder
       * inverse mapper
 * JPEG:
-   * pic1
+   * Structure: pic1
+   * Sub-image is often 8x8
 
