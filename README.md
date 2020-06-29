@@ -62,7 +62,8 @@ This is the collection of my notes on the course Image and Video Processing from
          * ieterartive binary grouping
       * step
          * re-ordering
-         * add last two (distinguish)
+         * add smallest two probability (to obtain smallest avg length)
+         * prefixing
    * Symboel Decoder:
    * Inverse Transform:
    
