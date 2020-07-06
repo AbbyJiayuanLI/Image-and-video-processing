@@ -64,7 +64,7 @@ This is the collection of my notes on the course Image and Video Processing from
          * invertible
          * formula:
             * ![](https://latex.codecogs.com/svg.latex?r(x,%20y,%20u,%20v)%20=%20s(x,%20y,%20u,%20v)%20=%20\alpha(u)\alpha(v)*cos[\frac{(2x+1)u*pi}{2n}]*cos[\frac{(2y+1)v*pi}{2n}])
-            * ![](https://latex.codecogs.com/svg.latex?\alpha(u)=\left{\begin{aligned}&\sqrt{1/n}\quad%20u=0\\&\sqrt{2/n}\quad%20u\neq0\end{aligned}\right.)
+            * ![](https://latex.codecogs.com/svg.latex?\alpha(u)=\left\{\begin{aligned}&\sqrt{1/n}\quad%20u=0\\&\sqrt{2/n}\quad%20u\neq0\end{aligned}\right.)
          
    * Quantizer:
    * Symbol Encoder: Huffman Coding 
