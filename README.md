@@ -58,8 +58,12 @@ This is the collection of my notes on the course Image and Video Processing from
       * Mean Square Error (MSE)
       * Karhunen-Loeve Transform (KLT):
          * only the first one
-         * but it is image dependent
+         * but it is image dependent, therefore slow and not in structure
       * Discrete Cosine Transform (DCT):
+         * image independent
+         * invertible
+         * formula:
+            * ![](https://latex.codecogs.com/svg.latex?r(x,%20y,%20u,%20v)%20=%20s(x,%20y,%20u,%20v)%20=%20\alpha(u)\alpha(v)*cos[\frac{(2x+1)u*pi}{2n}]*cos[\frac{(2y+1)v*pi}{2n}])
          
    * Quantizer:
    * Symbol Encoder: Huffman Coding 
