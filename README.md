@@ -55,6 +55,12 @@ This is the collection of my notes on the course Image and Video Processing from
    * Structure: pic1
    * Sub-image: often 8x8
    * Forward Transform:
+      * Mean Square Error (MSE)
+      * Karhunen-Loeve Transform (KLT):
+         * only the first one
+         * but it is image dependent
+      * Discrete Cosine Transform (DCT):
+         
    * Quantizer:
    * Symbol Encoder: Huffman Coding 
       * property
