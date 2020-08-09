@@ -90,5 +90,6 @@ This is the collection of my notes on the course Image and Video Processing from
    * core: accurate predictor to produce zeros
 * **MPEG:**
    * temporal prediction
+* Run length coding
    
 
