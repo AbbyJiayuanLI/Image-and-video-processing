@@ -11,17 +11,17 @@ This is the collection of my notes on the course Image and Video Processing from
 
 
 ## 1. Introduction
-* Weber's Law:
+* **Weber's Law:**
     * more sensitive to the change of intensity in dark than bright environment.
     * 图片1
-* Mach Band Effect:
+* **Mach Band Effect:**
     * not constant perceived intensity, dependent on the contrast of two pics
     * 图片2
-* Discretization
+* **Discretization**
     * in amplitude
     * in space
-* RGB
-* Neighborhood
+* **RGB**
+* **Neighborhood**
     * 4-neighbor
     ```
        __ __ __ __
@@ -40,7 +40,7 @@ This is the collection of my notes on the course Image and Video Processing from
    ```
    
 ## 2. Image and Video Compressing
-* Motivation:
+* **Motivation:**
    * why to do: Large information even for 1000x1000 pic
    * why can do: coding redundancy, spatial redundancy, irrelavant information
 * **Image:**
@@ -51,7 +51,7 @@ This is the collection of my notes on the course Image and Video Processing from
    * Decoder:
       * symbol decoder
       * inverse mapper
-* JPEG:
+* **JPEG:**
    * Structure: pic1
    * Sub-image: often 8x8
    * Forward Transform:
@@ -83,5 +83,7 @@ This is the collection of my notes on the course Image and Video Processing from
          * prefixing
    * Symboel Decoder:
    * Inverse Transform:
+* **JPEG-LS:**
+* **MPEG:**
    
 
