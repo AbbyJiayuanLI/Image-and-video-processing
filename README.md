@@ -89,5 +89,6 @@ This is the collection of my notes on the course Image and Video Processing from
    * with many near-zeros which is preferable in Huffman coding
    * core: accurate predictor to produce zeros
 * **MPEG:**
+   * temporal prediction
    
 
