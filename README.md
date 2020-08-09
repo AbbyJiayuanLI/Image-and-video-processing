@@ -64,9 +64,14 @@ This is the collection of my notes on the course Image and Video Processing from
          * invertible
          * formula:
             * ![](https://latex.codecogs.com/svg.latex?r(x,%20y,%20u,%20v)%20=%20s(x,%20y,%20u,%20v)%20=%20\alpha(u)\alpha(v)*cos[\frac{(2x+1)u*pi}{2n}]*cos[\frac{(2y+1)v*pi}{2n}])
-            * ![](https://latex.codecogs.com/svg.latex?%20\alpha(u)=\left\{\begin{aligned}&\sqrt{1/n}\\&\sqrt{2/n}\end{aligned}\right.)
-         
+            * ![](https://latex.codecogs.com/svg.latex?%20\alpha(u)=\left\{\begin{aligned}&\sqrt{1/n}\\&\sqrt{2/n}\end{aligned}\right.)       
    * Quantizer:
+      * introduce error and also compression
+      * type
+         * zonal mask
+         * zonal bit allocation
+         * threshold mask
+         * threshould coeffecient ordering sequence (zigzag)
    * Symbol Encoder: Huffman Coding 
       * property
          * variant length coding
