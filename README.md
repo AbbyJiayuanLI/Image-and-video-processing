@@ -72,6 +72,7 @@ This is the collection of my notes on the course Image and Video Processing from
          * zonal bit allocation
          * threshold mask
          * threshould coeffecient ordering sequence (zigzag)
+      * uniform quantization in JPEG
    * Symbol Encoder: Huffman Coding 
       * property
          * variant length coding
