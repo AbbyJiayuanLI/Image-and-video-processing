@@ -87,6 +87,7 @@ This is the collection of my notes on the course Image and Video Processing from
    * predictive lossless compression
    * encode error between prediction and real pixel
    * with many near-zeros which is preferable in Huffman coding
+   * core: accurate predictor to produce zeros
 * **MPEG:**
    
 
