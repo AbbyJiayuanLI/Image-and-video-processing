@@ -84,6 +84,9 @@ This is the collection of my notes on the course Image and Video Processing from
    * Symboel Decoder:
    * Inverse Transform:
 * **JPEG-LS:**
+   * predictive lossless compression
+   * encode error between prediction and real pixel
+   * with many near-zeros which is preferable in Huffman coding
 * **MPEG:**
    
 
