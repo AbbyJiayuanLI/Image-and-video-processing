@@ -115,11 +115,14 @@ This is the collection of my notes on the course Image and Video Processing from
          * transformation1 * inv(transformation2)
    * **Spatial Filtering**
       * neighborhood
-      * local average
+      * **local average**
          * proper window size to avoid blurring
          * **Mean Filtering**
             * mean minimize error
-            * gaussian - heat flow
+            * gaussian - weighted average - heat flow
+      * **non local mean**
+         * average of center pixels of similar neighborhoods
+         * insight: repeat observing same thing to reduce noise
       
    
 ## 4. Image Restoration
