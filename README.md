@@ -113,7 +113,7 @@ This is the collection of my notes on the course Image and Video Processing from
       * s = T(r) = (L-1)*int|0-r(Pr(w)dw)
    * **histogram Matching**
       * map to other histogram distribution other than uniform distribution
-
+      * transformation1 * inv(transformation2)
 ## 4. Image Restoration
 
 
