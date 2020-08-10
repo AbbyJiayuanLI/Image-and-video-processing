@@ -118,11 +118,15 @@ This is the collection of my notes on the course Image and Video Processing from
       * **local average**
          * proper window size to avoid blurring
          * **Mean Filtering**
-            * mean minimize error
+            * mean minimize square error
             * gaussian - weighted average - heat flow
+         * **Median Filter**
+            * do not blur 
+            * median minimize absolute error
       * **non local mean**
          * average of center pixels of similar neighborhoods
          * insight: repeat observing same thing to reduce noise
+      
       
    
 ## 4. Image Restoration
