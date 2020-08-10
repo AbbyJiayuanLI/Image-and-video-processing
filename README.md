@@ -62,9 +62,9 @@ This is the collection of my notes on the course Image and Video Processing from
       * symbol decoder
       * inverse mapper
 * **JPEG:**
-   * Structure: pic1
-   * Sub-image: often 8x8
-   * Forward Transform:
+   * **Structure**: pic1
+   * **Sub-image**: often 8x8
+   * **Forward Transform**:
       * Mean Square Error (MSE)
       * Karhunen-Loeve Transform (KLT):
          * only the first one
@@ -75,7 +75,7 @@ This is the collection of my notes on the course Image and Video Processing from
          * formula:
             * ![](https://latex.codecogs.com/svg.latex?r(x,%20y,%20u,%20v)%20=%20s(x,%20y,%20u,%20v)%20=%20\alpha(u)\alpha(v)*cos[\frac{(2x+1)u*pi}{2n}]*cos[\frac{(2y+1)v*pi}{2n}])
             * ![](https://latex.codecogs.com/svg.latex?%20\alpha(u)=\left\{\begin{aligned}&\sqrt{1/n}\\&\sqrt{2/n}\end{aligned}\right.)       
-   * Quantizer:
+   * **Quantizer**:
       * introduce error and also compression
       * type
          * zonal mask
@@ -83,7 +83,7 @@ This is the collection of my notes on the course Image and Video Processing from
          * threshold mask
          * threshould coeffecient ordering sequence (zigzag)
       * uniform quantization in JPEG
-   * Symbol Encoder: Huffman Coding 
+   * **Symbol Encoder**: Huffman Coding 
       * property
          * variant length coding
          * ieterartive binary grouping
@@ -91,8 +91,8 @@ This is the collection of my notes on the course Image and Video Processing from
          * re-ordering
          * add smallest two probability (to obtain smallest avg length)
          * prefixing
-   * Symboel Decoder:
-   * Inverse Transform:
+   * **Symboel Decoder**:
+   * **Inverse Transform**:
 * **JPEG-LS:**
    * predictive lossless compression
    * encode error between prediction and real pixel
@@ -104,10 +104,11 @@ This is the collection of my notes on the course Image and Video Processing from
    
 
 ## 3. Spatial Processing
-   * Intensity Transformation
+   * **Intensity Transformation**
       * pixel-wise 
-   * Spatial Filtering
-   * Equalization
+   * **Spatial Filtering**
+   * **Equalization**
+      * stretch out histogram
 
 
 ## 4. Image Restoration
