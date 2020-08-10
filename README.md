@@ -104,6 +104,10 @@ This is the collection of my notes on the course Image and Video Processing from
    
 
 ## 3. Spatial Processing
+   * Intensity Transformation
+      * pixel-wise 
+   * Spatial Filtering
+   * Equalization
 
 
 ## 4. Image Restoration
