@@ -119,6 +119,7 @@ This is the collection of my notes on the course Image and Video Processing from
          * proper window size to avoid blurring
          * **Mean Filtering**
             * mean minimize error
+            * gaussian - heat flow
       
    
 ## 4. Image Restoration
