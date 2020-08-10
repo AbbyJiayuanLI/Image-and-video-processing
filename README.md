@@ -109,6 +109,7 @@ This is the collection of my notes on the course Image and Video Processing from
    * **Spatial Filtering**
    * **Equalization**
       * stretch out histogram
+      * Ps(s) = Pr(r)*|dr/ds|
 
 
 ## 4. Image Restoration
