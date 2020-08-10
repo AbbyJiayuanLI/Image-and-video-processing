@@ -115,7 +115,11 @@ This is the collection of my notes on the course Image and Video Processing from
          * transformation1 * inv(transformation2)
    * **Spatial Filtering**
       * neighborhood
-      * blur
+      * local average
+         * proper window size to avoid blurring
+         * **Mean Filtering**
+            * mean minimize error
+      
    
 ## 4. Image Restoration
 
