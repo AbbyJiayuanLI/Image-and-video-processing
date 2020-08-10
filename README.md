@@ -4,6 +4,14 @@ This is the collection of my notes on the course Image and Video Processing from
 ## Content
 * [Useful Links](##useful-links)
 * [1. Introduction](##1-introduction)
+* [2. Image and Video Compressing](##2-image-and-video-compressing)
+* [3. Spatial Processing](##3-spatial-processing)
+* [4. Image Restoration](##4-image-restoration)
+* [5. Image Segmentation](##5-image-segmentation)
+* [6. Geometric PDEs](##6-geometric-pDEs)
+* [7. Image and Video Inpainting](##7-image-and-video-inpainting)
+* [8. Sparse Modeling and Compressed Sensing](##8-sparse-modeling-and-compressed-sensing)
+* [9. Medical Imaging](##9-medical-imaging)
 
 
 ## Useful Links
@@ -92,4 +100,16 @@ This is the collection of my notes on the course Image and Video Processing from
    * temporal prediction
 * Run length coding
    
+## 3. Spatial Processing
 
+## 4. Image Restoration
+
+## 5. Image Segmentation
+
+## 6. Geometric PDEs
+
+## 7. Image and Video Inpainting
+
+## 8. Sparse Modeling and Compressed Sensing
+
+## 9. Medical Imaging
