@@ -106,14 +106,17 @@ This is the collection of my notes on the course Image and Video Processing from
 ## 3. Spatial Processing
    * **Intensity Transformation**
       * pixel-wise 
+      * **Equalization**
+         * stretch out histogram
+         * Ps(s) = Pr(r)*|dr/ds| with s=T(R)
+         * s = T(r) = (L-1)*int|0-r(Pr(w)dw)
+      * **histogram Matching**
+         * map to other histogram distribution other than uniform distribution
+         * transformation1 * inv(transformation2)
    * **Spatial Filtering**
-   * **Equalization**
-      * stretch out histogram
-      * Ps(s) = Pr(r)*|dr/ds| with s=T(R)
-      * s = T(r) = (L-1)*int|0-r(Pr(w)dw)
-   * **histogram Matching**
-      * map to other histogram distribution other than uniform distribution
-      * transformation1 * inv(transformation2)
+      * neighborhood
+      * blur
+   
 ## 4. Image Restoration
 
 
