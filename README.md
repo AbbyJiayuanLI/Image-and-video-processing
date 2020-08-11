@@ -132,9 +132,22 @@ This is the collection of my notes on the course Image and Video Processing from
          * **Image Sharpening**: add Laplacian(changes) to original image
          * Sharpened = original + Unsharp mask = original + (original-blurred)
       
-      
    
 ## 4. Image Restoration
+   * **Degradation**
+      * lost of focus
+      * blur by motion
+   * **Restoration**: invert degradation and noise
+      * multiplicative noise is processed with log
+   * **Noise**:
+      * Gaussian (mathematical)
+      * Rayleigh (real sensor noise)
+      * Gamma
+      * Exponential (predictive model noise)
+      * Uniform （quantization noise)
+      * Impulse (salt&pepper noise)
+   
+
 
 
 ## 5. Image Segmentation
