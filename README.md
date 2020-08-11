@@ -148,7 +148,9 @@ This is the collection of my notes on the course Image and Video Processing from
       * Impulse (salt&pepper noise)
    * Estimation of noise
    * Estimation of degradation function
-
+   * **Wiener Filtering**
+      * minimize mean square error
+      * filter = H^*/(H^2+Sn/Sf) ~ H^*/(H^2+k)
 
 
 ## 5. Image Segmentation
