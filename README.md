@@ -130,6 +130,7 @@ This is the collection of my notes on the course Image and Video Processing from
          * represent derivative in mask form
          * **Laplacian Derivative**: sum of 2nd derivative in x and y direction
          * **Image Sharpening**: add Laplacian(changes) to original image
+         * Sharpened = original + Unsharp mask = original + (original-blurred)
       
       
    
