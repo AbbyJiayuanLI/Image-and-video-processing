@@ -126,6 +126,9 @@ This is the collection of my notes on the course Image and Video Processing from
       * **non local mean**
          * average of center pixels of similar neighborhoods
          * insight: repeat observing same thing to reduce noise
+      * **Mask**
+         * represent derivative in mask form
+         * **Laplacian Derivative**: sum of 2nd derivative in x and y direction
       
       
    
