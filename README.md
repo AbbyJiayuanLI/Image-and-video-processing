@@ -146,7 +146,8 @@ This is the collection of my notes on the course Image and Video Processing from
       * Exponential (predictive model noise)
       * Uniform （quantization noise)
       * Impulse (salt&pepper noise)
-   
+   * Estimation of noise
+   * Estimation of degradation function
 
 
 
