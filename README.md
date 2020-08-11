@@ -151,6 +151,7 @@ This is the collection of my notes on the course Image and Video Processing from
    * **Wiener Filtering**
       * minimize mean square error
       * filter = H^*/(H^2+Sn/Sf) ~ H^*/(H^2+k)
+      * only to estimate degradation and try best k
 
 
 ## 5. Image Segmentation
