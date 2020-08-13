@@ -159,7 +159,10 @@ This is the collection of my notes on the course Image and Video Processing from
       * gradient, and ...
    * **Hough Transform**
       * Prior knowledge about shape
-      * paramterspace
+      * voting in paramter space
+   * **Ostu's Method**
+      * minimize weighted within-class variance
+      * sliding window to reduce the influence of regional drakness
 
 ## 6. Geometric PDEs
 
