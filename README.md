@@ -168,6 +168,12 @@ This is the collection of my notes on the course Image and Video Processing from
       * 1 - feature distribution estimation
       * 2 - weighted distance transform
       * 3 - refine by updating new ''scribbles''
+* **Graph cut**
+   * weight is gradient related
+* **Mumford-Shah**
+   * penalize for mean square error
+   * penalize for edges
+   
 
 ## 6. Geometric PDEs
 
