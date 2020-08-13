@@ -155,6 +155,11 @@ This is the collection of my notes on the course Image and Video Processing from
 
 
 ## 5. Image Segmentation
+   * Edge
+      * gradient, and ...
+   * **Hough Transform**
+      * Prior knowledge about shape
+      * paramterspace
 
 ## 6. Geometric PDEs
 
