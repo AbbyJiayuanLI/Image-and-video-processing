@@ -172,7 +172,7 @@ This is the collection of my notes on the course Image and Video Processing from
    * weight is gradient related
 * **Mumford-Shah**
    * penalize for mean square error
-   * penalize for edges
+   * penalize for edges (total segment lengths)
    
 
 ## 6. Geometric PDEs
