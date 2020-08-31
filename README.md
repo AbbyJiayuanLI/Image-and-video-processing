@@ -176,6 +176,14 @@ This is the collection of my notes on the course Image and Video Processing from
    
 
 ## 6. Geometric PDEs
+* continuous space
+* general algorithm, complexity in implementation
+* **Planar Curve**
+   * derivative: Cs, always unit length
+   * curvature: Css
+* **Transformation**:
+   * affine
+   * euclidean: rotation + translation
 
 ## 7. Image and Video Inpainting
 
