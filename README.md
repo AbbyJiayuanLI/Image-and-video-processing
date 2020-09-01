@@ -200,8 +200,12 @@ This is the collection of my notes on the course Image and Video Processing from
 * **Curve Evolution**:
    * dC(p)/dt = V(p,t)
    * tangential velocity do not change geometry (shape)
-   * Euclidean heat flow: Ct = k*n = Css
-   * Affine heat flow: Ct = k^1/3*n
+   * **Euclidean heat flow:** Ct = k*n = Css
+   * **Affine heat flow:** Ct = k^1/3*n = <Cvv,n>*n
+   * **Constant Flow**: Ct = n
+   * **Geodesic Active Contour**: 
+      * Ct = (g(x,y)*k - <delta_g(x,y),n>) * n = v*n
+      * g = 1/delta_I
 
 ## 7. Image and Video Inpainting
 
