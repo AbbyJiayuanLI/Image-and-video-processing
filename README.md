@@ -178,12 +178,30 @@ This is the collection of my notes on the course Image and Video Processing from
 ## 6. Geometric PDEs
 * continuous space
 * general algorithm, complexity in implementation
-* **Planar Curve**
+* **Planar Curve**:
    * derivative: Cs, always unit length
-   * curvature: Css
+   * curvature: Css = k*n
 * **Transformation**:
    * affine
+      * area preserve: Cv(tangent), Cvv
+      * Cv is generally not tangent to Cvv
+      * arc-length: dv=k^1/3*ds
+      * curvature: Cvvv = mu * Cv
    * euclidean: rotation + translation
+      * length preserve
+      * arc-lenfth: ds=|Cp|dp -> |Cs|=1
+* **Surface**:
+   * S(u,v) = {x=u,y=v,z=(u,v)}
+   * normal curvature: kn = <Css, n>
+   * principle curvature
+      * k1 = max_theta(k)
+      * k2 = min_theta(k)
+      * k1 is perpendicular to k2
+* **Curve Evolution**:
+   * dC(p)/dt = V(p,t)
+   * tangential velocity do not change geometry (shape)
+   * Euclidean heat flow: Ct = k*n = Css
+   * Affine heat flow: Ct = k^1/3*n
 
 ## 7. Image and Video Inpainting
 
