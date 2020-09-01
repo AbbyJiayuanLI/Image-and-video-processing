@@ -206,7 +206,12 @@ This is the collection of my notes on the course Image and Video Processing from
    * **Geodesic Active Contour**: 
       * Ct = (g(x,y)*k - <delta_g(x,y),n>) * n = v*n
       * g = 1/delta_I
-
+* **Level set**
+   * C = {(x,y) | phi(x,y)=0}
+   * N = - delta_phi/|delta_phi| (不是点的梯度，是函数phi的梯度)
+   * k = div(delta_phi/|delta_phi|)
+   * dC/dt = V*N  <==>  dphi/dt = V*|delta_phi|
+   
 ## 7. Image and Video Inpainting
 
 ## 8. Sparse Modeling and Compressed Sensing
