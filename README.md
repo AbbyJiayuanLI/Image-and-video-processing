@@ -211,6 +211,11 @@ This is the collection of my notes on the course Image and Video Processing from
    * N = - delta_phi/|delta_phi| (不是点的梯度，是函数phi的梯度)
    * k = div(delta_phi/|delta_phi|)
    * dC/dt = V*N  <==>  dphi/dt = V*|delta_phi|
+* calculus of variation
+   * find function that satisfy min or max
+   * **eular lagrange equation**:
+* Anistropic Diffusion
+* Isotropic Diffusion (heat flow)
    
 ## 7. Image and Video Inpainting
 
