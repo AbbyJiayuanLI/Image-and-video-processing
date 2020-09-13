@@ -230,6 +230,7 @@ This is the collection of my notes on the course Image and Video Processing from
       * finally: '''dI/dt = delta(delta_I) * (delta_I)T = 0
 * Impainting via calculus of variation
    * normalized gradient(shape): theta 
+* Texture
       
 
 ## 8. Sparse Modeling and Compressed Sensing
