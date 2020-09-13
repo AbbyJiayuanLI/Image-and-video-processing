@@ -224,9 +224,11 @@ This is the collection of my notes on the course Image and Video Processing from
 * **Impainting**:
    * Input: image, area of interest
    * Reserve boundary: water flow - PDE
-      * ''delta_L * N = 0'' (change of information is 0 in direction)
-      * L: information
-      * N: direction
+      * '''delta_L * N = 0 = dI/dt''' (change of information is 0 in direction)
+      * L: information, laplacian (smoothness) = delta_I
+      * N: direction, isophote direction (time variant) = (delta_I)T
+      * finally: '''dI/dt = delta(delta_I) * (delta_I)T = 0
+      
 
 ## 8. Sparse Modeling and Compressed Sensing
 
