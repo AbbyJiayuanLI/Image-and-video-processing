@@ -218,6 +218,15 @@ This is the collection of my notes on the course Image and Video Processing from
 * Isotropic Diffusion (heat flow)
    
 ## 7. Image and Video Inpainting
+* recover from degradation
+* remove object, or impaint background
+* In nature: camouflage, human eyes
+* **Impainting**:
+   * Input: image, area of interest
+   * Reserve boundary: water flow - PDE
+      * ''delta_L * N = 0'' (change of information is 0 in direction)
+      * L: information
+      * N: direction
 
 ## 8. Sparse Modeling and Compressed Sensing
 
