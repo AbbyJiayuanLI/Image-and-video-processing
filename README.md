@@ -228,9 +228,10 @@ This is the collection of my notes on the course Image and Video Processing from
       * L: information, laplacian (smoothness) = delta_I
       * N: direction, isophote direction (time variant) = (delta_I)T
       * finally: '''dI/dt = delta(delta_I) * (delta_I)T = 0
-* Impainting via calculus of variation
+* Impainting via **calculus of variation**
    * normalized gradient(shape): theta 
 * Texture
+* Copy&paste: non-local mean, simialr patch
       
 
 ## 8. Sparse Modeling and Compressed Sensing
