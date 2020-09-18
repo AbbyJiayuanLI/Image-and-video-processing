@@ -256,6 +256,23 @@ This is the collection of my notes on the course Image and Video Processing from
       * Sparsity: 
          * LP norm of vector
          * ```sum_j=1_to_k (|alpha_j|^P)```
+      * **represent signal in aloha with lower dimention**, which reduces noise
+  * Implementation
+      * NP hard: find least dimension alpha(L0), while maintain small error
+      * Relaxation (basic pursuit BP): L1
+      * Greedy aproach (matching pursuit MP): best match and so on
+  * Dictionary:
+      * known set
+      * learning
+         * k-svd
+             * sparse coding
+             * update atom 
+  * **Compressed Sensing**
+      * extra matrix Q to reduce number of rows
+  * Gaussian Mixture
+      * model signal using k gaussian distribution
+      * MAP-EM
+      * structural sparse coding
             
 ## 9. Medical Imaging
 
