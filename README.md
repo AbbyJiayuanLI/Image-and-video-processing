@@ -108,8 +108,8 @@ This is the collection of my notes on the course Image and Video Processing from
       * pixel-wise 
       * **Equalization**
          * stretch out histogram
-         * Ps(s) = Pr(r)*|dr/ds| with s=T(R)
-         * s = T(r) = (L-1)*int|0-r(Pr(w)dw)
+         * ```Ps(s) = Pr(r)*|dr/ds| with s=T(R)```
+         * ```s = T(r) = (L-1)*int|0-r(Pr(w)dw)```
       * **histogram Matching**
          * map to other histogram distribution other than uniform distribution
          * transformation1 * inv(transformation2)
@@ -150,7 +150,7 @@ This is the collection of my notes on the course Image and Video Processing from
    * Estimation of degradation function
    * **Wiener Filtering**
       * minimize mean square error
-      * filter = H^*/(H^2+Sn/Sf) ~ H^*/(H^2+k)
+      * ```filter = H^*/(H^2+Sn/Sf) ~ H^*/(H^2+k)```
       * only to estimate degradation and try best k
 
 
@@ -180,37 +180,37 @@ This is the collection of my notes on the course Image and Video Processing from
 * general algorithm, complexity in implementation
 * **Planar Curve**:
    * derivative: Cs, always unit length
-   * curvature: Css = k*n
+   * curvature: ```Css = k*n```
 * **Transformation**:
    * affine
       * area preserve: Cv(tangent), Cvv
       * Cv is generally not tangent to Cvv
-      * arc-length: dv=k^1/3*ds
-      * curvature: Cvvv = mu * Cv
+      * arc-length: ```dv=k^1/3*ds```
+      * curvature: ```Cvvv = mu * Cv```
    * euclidean: rotation + translation
       * length preserve
-      * arc-lenfth: ds=|Cp|dp -> |Cs|=1
+      * arc-lenfth: ```ds=|Cp|dp -> |Cs|=1```
 * **Surface**:
-   * S(u,v) = {x=u,y=v,z=(u,v)}
-   * normal curvature: kn = <Css, n>
+   * ```S(u,v) = {x=u,y=v,z=(u,v)}```
+   * normal curvature: ```kn = <Css, n>```
    * principle curvature
       * k1 = max_theta(k)
       * k2 = min_theta(k)
       * k1 is perpendicular to k2
 * **Curve Evolution**:
-   * dC(p)/dt = V(p,t)
+   * ```dC(p)/dt = V(p,t)```
    * tangential velocity do not change geometry (shape)
-   * **Euclidean heat flow:** Ct = k*n = Css
-   * **Affine heat flow:** Ct = k^1/3*n = <Cvv,n>*n
-   * **Constant Flow**: Ct = n
+   * **Euclidean heat flow:** ```Ct = k*n = Css```
+   * **Affine heat flow:** ```Ct = k^1/3*n = <Cvv,n>*n```
+   * **Constant Flow**: ```Ct = n```
    * **Geodesic Active Contour**: 
-      * Ct = (g(x,y)*k - <delta_g(x,y),n>) * n = v*n
-      * g = 1/delta_I
+      * ```Ct = (g(x,y)*k - <delta_g(x,y),n>) * n = v*n```
+      * ```g = 1/delta_I```
 * **Level set**
-   * C = {(x,y) | phi(x,y)=0}
-   * N = - delta_phi/|delta_phi| (不是点的梯度，是函数phi的梯度)
-   * k = div(delta_phi/|delta_phi|)
-   * dC/dt = V*N  <==>  dphi/dt = V*|delta_phi|
+   * ```C = {(x,y) | phi(x,y)=0}```
+   * ```N = - delta_phi/|delta_phi|``` (不是点的梯度，是函数phi的梯度)
+   * ```k = div(delta_phi/|delta_phi|)```
+   * ```dC/dt = V*N```  <==>  ```dphi/dt = V*|delta_phi|```
 * calculus of variation
    * find function that satisfy min or max
    * **eular lagrange equation**:
@@ -224,10 +224,10 @@ This is the collection of my notes on the course Image and Video Processing from
 * **Impainting**:
    * Input: image, area of interest
    * Reserve boundary: water flow - PDE
-      * '''delta_L * N = 0 = dI/dt''' (change of information is 0 in direction)
+      * ```delta_L * N = 0 = dI/dt``` (change of information is 0 in direction)
       * L: information, laplacian (smoothness) = delta_I
       * N: direction, isophote direction (time variant) = (delta_I)T
-      * finally: '''dI/dt = delta(delta_I) * (delta_I)T = 0
+      * finally: ```dI/dt = delta(delta_I) * (delta_I)T = 0```
 * Impainting via **calculus of variation**
    * normalized gradient(shape): theta 
 * Texture
@@ -235,5 +235,30 @@ This is the collection of my notes on the course Image and Video Processing from
       
 
 ## 8. Sparse Modeling and Compressed Sensing
-
+   * Denoising:
+      * Energy minimization: ```f(x) = 1/2*||x-y||^2 + G(x)```
+         * G(x) is the prior of regulation
+            * energy
+            * smoothness
+            * smooth + edge
+            * robust statistics - higher order function
+            * total variation
+            * wavelet sparsity
+            * **sparse & redundant**
+   * **Sparse Model**
+      * Signal X of dimention Nx1
+      * Disctionary D of NxK, which is a set of prototype signals
+         * when N=K, it is complete
+      * Vector alpha of dimention Kx1
+         * very few (L) non-zeros
+      * try to reproduce signal by ```x=D*alpha```, which is the linear conbination of prototype signals
+            
 ## 9. Medical Imaging
+
+
+
+
+
+
+
+
