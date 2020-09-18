@@ -237,6 +237,7 @@ This is the collection of my notes on the course Image and Video Processing from
 ## 8. Sparse Modeling and Compressed Sensing
    * Denoising:
       * Energy minimization: ```f(x) = 1/2*||x-y||^2 + G(x)```
+         * MAP
          * G(x) is the prior of regulation
             * energy
             * smoothness
@@ -252,6 +253,9 @@ This is the collection of my notes on the course Image and Video Processing from
       * Vector alpha of dimention Kx1
          * very few (L) non-zeros
       * try to reproduce signal by ```x=D*alpha```, which is the linear conbination of prototype signals
+      * Sparsity: 
+         * LP norm of vector
+         * ```sum_j=1_to_k (|alpha_j|^P)```
             
 ## 9. Medical Imaging
 
