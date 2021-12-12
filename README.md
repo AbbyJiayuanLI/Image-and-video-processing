@@ -16,7 +16,7 @@ This is the collection of my notes on the course Image and Video Processing from
 
 
 ## Useful Links
-* some interested projects from the course [EE368/CS232: Digital Image Processing](https://web.stanford.edu/class/ee368/index.html) in Stanford University.
+* some interesting projects from the course [EE368/CS232: Digital Image Processing](https://web.stanford.edu/class/ee368/index.html) in Stanford University.
 
 
 ## 1. Introduction
